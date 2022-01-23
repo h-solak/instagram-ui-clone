@@ -1,0 +1,137 @@
+/*general*/
+
+body {
+    background: #fafafa;
+}
+
+* {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav {
+    height: 54px;
+    width: 100%;
+}
+
+#search-bar {
+    background: rgba(220, 220, 220, 0.4);
+    border-radius: 10px;
+    width: 250px;
+    cursor: text;
+}
+
+#search-bar>input::placeholder {
+    color: rgba(112, 112, 112, 0.8);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#search-bar>input:focus {
+    outline: none;
+}
+
+.stories {
+    background: #fff;
+}
+
+.story {
+    cursor: pointer;
+}
+
+.story>img {
+    border: 2px solid red;
+}
+
+.story>span {
+    font-size: 13px;
+    color: #000;
+}
+
+.profile #profile-name {
+    font-size: 14px;
+    color: #818181;
+}
+
+.profile #profile-nick {
+    font-size: 14px;
+    color: rgb(36, 36, 36);
+    font-weight: 500;
+}
+
+.blue-link {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(0, 102, 255);
+}
+
+.post-profile-pic {
+    vertical-align: middle;
+}
+
+#post-nick {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#sugg-1 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #818181;
+}
+
+#sugg-2 {
+    font-size: 12px;
+    color: #000;
+}
+
+.sugg-nick {
+    font-weight: 500;
+}
+
+.sugg-people {
+    font-size: 12px;
+    color: rgb(131, 131, 131);
+}
+
+.post-bottom-icons:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.view-comments {
+    color: rgb(145, 145, 145);
+}
+
+.time {
+    font-size: 10px;
+    color: rgb(153, 153, 153);
+}
+
+.comment-input {
+    border: none;
+}
+
+.comment-input:focus {
+    outline: none;
+}
+
+#post {
+    font-weight: 600;
+    color: rgba(0, 102, 255, 0.3);
+}
+
+.sidebar-footer {
+    font-size: 11px;
+    color: rgb(195, 195, 195);
+}
+
+#sticky-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
