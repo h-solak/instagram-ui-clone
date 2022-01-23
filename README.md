@@ -1,2 +1,2 @@
 # instagram-ui-clone
-A bootstrap ui clone project.
+A UI clone project made with bootstrap.
